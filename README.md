@@ -1,36 +1,109 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LenguaSur
 
-## Getting Started
+## Overview
 
-First, run the development server:
+LenguaSur is a personal educational platform designed to help users learn **Spanish** through meaningful practice instead of excessive gamification. The project combines AI-powered feedback, adaptive exercises, vocabulary tracking, and cultural context to create a more authentic learning experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The application is also intended to be my primary project for exploring modern frontend development, AI integration, and educational software design.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Goals
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* Build an AI-assisted Spanish learning platform.
+* Focus on **real language acquisition** rather than engagement mechanics.
+* Emphasize vocabulary retention, grammar understanding, and writing practice.
+* Create a polished portfolio project demonstrating full-stack development and LLM integration.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Planned Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* AI-powered sentence correction and explanations
+* Vocabulary review and spaced repetition
+* Personalized learning based on user mistakes
+* Writing exercises with detailed feedback
+* Progress dashboard and learning statistics
+* Flashcards and adaptive quizzes
+* Grammar explanations in Portuguese
+* Regional vocabulary and cultural notes
+* User authentication and cloud progress synchronization
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Planned Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Frontend
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Next.js (React)
+* TypeScript
+* Tailwind CSS
+* shadcn/ui
+* React Query
+* Zustand
+* React Hook Form
+* Zod
+* Recharts
+* Framer Motion
+
+### Backend
+
+* NestJS
+* Prisma ORM
+* PostgreSQL (Supabase or Neon)
+* JWT Authentication
+
+### AI
+
+* Google Gemini API
+* Prompt Engineering
+* Structured JSON responses
+
+### Deployment
+
+* Vercel (Frontend)
+* Render or Railway (Backend)
+* Supabase / Neon (Database)
+
+---
+
+## Development Objectives
+
+This project aims to demonstrate knowledge in:
+
+* Modern React ecosystem
+* Full-stack architecture
+* AI application development
+* Prompt engineering
+* Educational software design
+* Authentication and authorization
+* Database modeling
+* API integration
+* Data visualization
+* UX/UI design
+* Clean Architecture principles
+
+---
+
+## Project Philosophy
+
+LenguaSur is **not** intended to compete with Duolingo through streaks, XP, or aggressive gamification.
+
+Instead, it focuses on:
+
+* Meaningful learning
+* Clear explanations
+* Intelligent feedback
+* Cultural immersion
+* Practical communication
+* Long-term vocabulary retention
+
+The AI should behave like a knowledgeable Spanish teacher rather than a generic chatbot, explaining mistakes, identifying learning patterns, and adapting future exercises to each learner.
+
+---
+
+## Status
+
+**Planning phase**
+
+Development will begin after the completion of the EduAssets and PriceMonitor projects.
